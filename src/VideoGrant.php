@@ -9,28 +9,28 @@ class VideoGrant {
    *
    * @var bool|null
    */
-  protected $roomCreate = NULL;
+  protected $roomCreate = false;
 
   /**
    * Permission to join a room as a participant, room must be set.
    *
    * @var bool|null
    */
-  protected $roomJoin = NULL;
+  protected $roomJoin = false;
 
   /**
    * Permission to list rooms.
    *
    * @var bool|null
    */
-  protected $roomList = NULL;
+  protected $roomList = false;
 
   /**
    * Permission to start a recording.
    *
    * @var bool|null
    */
-  protected $roomRecord = NULL;
+  protected $roomRecord = false;
 
   /**
    * Permission to control a specific room, room must be set.
